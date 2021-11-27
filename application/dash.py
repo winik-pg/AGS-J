@@ -37,7 +37,7 @@ body = html.Div([
                           className="ml-1")]),],style={'textAlign': 'center',},),
     html.Br(),
     dbc.Row([
-        dbc.Col(html.H6("Aguascalientes"),
+        dbc.Col(html.H1("Aguascalientes"),
                 style={'size': 15, 'offset': 0, "text-align": "center",}),], justify="start",),
     html.Br(),
     
