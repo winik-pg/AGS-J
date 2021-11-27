@@ -72,6 +72,14 @@ body = html.Div([
         dbc.Col(dbc.CardImg(src="https://github.com/winik-pg/AGS-J/blob/main/application/static/Aguascalientes_SEMANA%2020.png?raw=true")),]),
     
     
+    html.Br(),
+        dbc.Row([
+        dbc.Col(dbc.CardImg(src="https://github.com/winik-pg/usefull/blob/main/gradosmapajuana.PNG?raw=true"),
+               #width=3,
+                md={'size': 3,
+                   "offset": 6, }),]),
+     html.Br(),
+    
     html.Div([
         html.H5([dbc.Badge("inicio", 
                           href="link buttons",
