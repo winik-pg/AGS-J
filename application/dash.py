@@ -78,10 +78,10 @@ body = html.Div([
                           color="light",
                           className="ml-1")]),],style={'textAlign': 'center',},),
     
-    ],style={'width': '1800px', })
+    ],style={'width': '1600px', })
 
 app.layout = html.Div([body],
-                              style={'width': '1900px',
+                              style={'width': '1700px',
                                     "background-color": "white"})
 
 #from application.dash import app
